@@ -21,7 +21,7 @@
 }
 
 .jumbotron {
-	background-image: url('http://www.studioonenh.com/wordpress/wp-content/uploads/0269Manchester-test1.jpg');
+	background-image: url('https://raw.githubusercontent.com/derekmcavoy/cool-startup/master/pics/0269Manchester-test1.jpg');
 	height: 400px;
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -48,25 +48,25 @@
 	font-weight: bold;
 }
 
-.android_development .container {
+.android-development .container {
 	background-color: #F5F5F5;
 	border-top: 1px solid black;
 	border-left: 1px solid black;
 	border-right: 1px solid black;
 }
 
-.android_development h1 {
+.android-development h1 {
 	color: black;
 	font-size: 24px;
 	font-weight: bold;
 }
 
-.android_development p {
+.android-development p {
 	color: black;
 	font-size: 16px;
 	margin-bottom: 10px;
 }
-.android_development h3 {
+.android-development h3 {
 		color: black;
 	font-size: 20px;
 	font-weight: bold;
@@ -105,28 +105,3 @@
 	font-size: 18px;
 	font-family: 'Shift', sans-serif;
 }
-//Took out the form since it was unneccesary for now.
-/*
-.footer form {
-	color: white;
-	font-size: 18px;
-	font-family: 'Shift', sans-serif;
-	position: relative;
-	margin: 10px;
-}
-
-.footer input[type=text] {
-	padding: 5px;
-	border:2px solid #ccc;
-	border-radius: 5px;
-	height: 100px;
-	width: 600px;
-}
-
-.footer input[type=text]:focus {
-	border-color: #333;
-}
-
-.footer input[type=submit] {
-	color: black;
-}/*
