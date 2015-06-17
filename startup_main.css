@@ -1,0 +1,132 @@
+/*
+	Derek McAvoy
+	cool-startup mini project
+*/
+
+.nav {
+	background-color: black;
+}
+
+.nav li{
+	display: inline;
+	color: #FFFFFF;
+}
+
+.nav a {
+	padding: 15px 10px;
+	font-size: 14px;
+	font-weight: bold;
+	text-decoration: none;
+	color: white;
+}
+
+.jumbotron {
+	background-image: url('http://www.studioonenh.com/wordpress/wp-content/uploads/0269Manchester-test1.jpg');
+	height: 400px;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.jumbotron .container {
+	position: relative;
+	top: 20px;
+	margin-left: 50px;
+}
+
+.jumbotron h1 {
+	color: #FFFFFF;
+	font-size: 48px;
+	font-family: 'Shift', sans-serif;
+	font-weight: bold;
+	top: 50px;
+}
+
+.jumbotron p {
+	color: #FFFFFF;
+	font-size: 24px;
+	font-family: 'Shift', sans-serif;
+	font-weight: bold;
+}
+
+.android_development .container {
+	background-color: #F5F5F5;
+	border-top: 1px solid black;
+	border-left: 1px solid black;
+	border-right: 1px solid black;
+}
+
+.android_development h1 {
+	color: black;
+	font-size: 24px;
+	font-weight: bold;
+}
+
+.android_development p {
+	color: black;
+	font-size: 16px;
+	margin-bottom: 10px;
+}
+.android_development h3 {
+		color: black;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+#apple-img {
+	margin-top: 40px;
+}
+
+.additional-info .container {
+	background-color: #F5F5F5;
+	border-left: 1px solid black;
+	border-right: 1px solid black;
+	border-bottom: 1px solid black;
+	margin-bottom: 20px;
+}
+
+.android-development img {
+	border: 4px solid black;
+	padding: 10px 10px;
+}
+
+.footer {
+	background-color: black;
+	
+}
+.footer h2 {
+	color: white;
+	font-size: 24px;
+	font-family: 'Shift', sans-serif;
+	font-weight: bold:
+}
+
+.footer p {
+	color: white;
+	font-size: 18px;
+	font-family: 'Shift', sans-serif;
+}
+//Took out the form since it was unneccesary for now.
+/*
+.footer form {
+	color: white;
+	font-size: 18px;
+	font-family: 'Shift', sans-serif;
+	position: relative;
+	margin: 10px;
+}
+
+.footer input[type=text] {
+	padding: 5px;
+	border:2px solid #ccc;
+	border-radius: 5px;
+	height: 100px;
+	width: 600px;
+}
+
+.footer input[type=text]:focus {
+	border-color: #333;
+}
+
+.footer input[type=submit] {
+	color: black;
+}/*
