@@ -1,0 +1,131 @@
+/*
+	Derek McAvoy
+	cool-startup mini project
+*/
+
+.top-bar {
+	background-color: black;
+}
+
+.top-bar a {
+	padding: 15px 10px;
+	font-size: 14px;
+	font-weight: bold;
+	text-decoration: none;
+	color: white;
+}
+
+.fullWidth{
+	background: url(https://raw.githubusercontent.com/derekmcavoy/cool-startup/master/images/ManchesterNH.jpg);
+	background-repeat: no-repeat;
+	width: 100%;
+	height: 400px;
+	margin: auto;
+	max-width: 100%;
+	position: relative;
+}
+
+.fullWidth h1 {
+	color: #FFFFFF;
+	font-size: 48px;
+	font-family: 'Shift', sans-serif;
+	font-weight: bold;
+	top: 50px;
+	margin-top: 20px;
+	margin-left: 20px;
+}
+
+.fullWidth p {
+	color: #FFFFFF;
+	font-size: 24px;
+	font-family: 'Shift', sans-serif;
+	font-weight: bold;
+	margin-top: 20px;
+	margin-left: 20px;
+}
+
+.android-development {
+	background-color: #FFF;
+	border-top: 1px solid black;
+	border-left: 1px solid black;
+	border-right: 1px solid black;
+	margin-top: 20px;
+	padding: 10px 10px;
+}
+
+.android-development h1 {
+	color: black;
+	font-size: 24px;
+	font-weight: bold;
+}
+
+.android-development p {
+	color: black;
+	font-size: 16px;
+	margin-bottom: 10px;
+}
+.android-development h3 {
+		color: black;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+#apple-img {
+	margin-top: 40px;
+	padding: 10px 10px;
+	height: 25em;
+	width: 25em;
+}
+
+#android-img {
+	margin-left: 20px;
+	padding: 10px 10px;
+	height: 110px;
+	width: 25em;
+}
+
+.additional-info .panel {
+	background-color: #F5F5F5;
+	border-left: 1px solid black;
+	border-right: 1px solid black;
+	border-bottom: 1px solid black;
+	border-top: 1px solid black;
+	margin-bottom: 20px;
+	position: relative;
+}
+
+.additional-info img {
+	height: 200px;
+	width: 300px;
+	margin-top: 20px;
+}
+
+#mobile-game-img {
+	margin-top: 50px;
+}
+
+#social-media-img {
+	margin-top: 25px;
+}
+
+.footer {
+	background-color: #000000;
+	height: auto;
+	width: 100%;
+}
+.footer h2 {
+	color: white;
+	font-size: 20px;
+	font-family: 'Shift', sans-serif;
+	font-weight: bold;
+	padding: 10px;
+	margin: auto;
+	position: relative;
+}
+
+.footer p {
+	color: white;
+	font-size: 16px;
+	font-family: 'Shift', sans-serif;
+	padding: 10px 10px;
+}
