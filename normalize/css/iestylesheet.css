@@ -1,0 +1,20 @@
+/*
+	Derek McAvoy
+	cool-startup mini project
+	using only normalize
+	
+	NOTE: This stylesheet is only meant to be used on internet IE versions 9 and below...
+	Since IE9 or below does not support multiple columns for CSS3 this is meant to fix
+	the let and right margins of the inline-block elements so these users still have a symmetric
+	webpage that they can view.
+*/
+
+.android-apple-development {
+	margin-left: 5%;
+	margin-right: 5%;
+}
+
+.additional-info .container {
+	margin-left: 5%;
+	margin-right: 5%;
+}
