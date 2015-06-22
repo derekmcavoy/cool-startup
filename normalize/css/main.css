@@ -1,0 +1,156 @@
+/*
+	Derek McAvoy
+	cool-startup mini project
+	using only normalize
+*/
+
+.header {
+	display: inline-block;
+	background-color: black;
+	width: 100%;
+	height: 4em;
+	margin-bottom: -1.75em;
+}
+
+.header .left {
+	float: left;
+	margin-left: 20px;
+	margin-top: 15px;
+}
+
+.header .right {
+	float: right;
+	margin-right: 20px;
+	margin-top: 15px;
+}
+
+.header a {
+	padding: 20px 20px 20px 20px;
+	text-decoration: none;
+	color: white;
+	font-size: 1rem;
+	font-weight: bold;
+	font-family: 'Shift', sans-serif;
+}
+
+.full-width {
+	background: url(https://raw.githubusercontent.com/derekmcavoy/cool-startup/master/images/ManchesterNH.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	min-width: 100%;
+	height: 400px;
+	margin: auto;
+	max-width: 100%;
+	position: relative;
+	margin-top: 0px;
+}
+
+.full-width h1 {
+	color: #FFFFFF;
+	font-size: 48px;
+	font-family: 'Shift', sans-serif;
+	font-weight: bold;
+	top: 50px;
+	margin-top: 20px;
+	margin-left: 20px;
+	font-family: 'Shift', sans-serif;
+}
+
+.full-width p {
+	color: #FFFFFF;
+	font-size: 24px;
+	font-family: 'Shift', sans-serif;
+	font-weight: bold;
+	margin-top: 20px;
+	margin-left: 20px;
+	font-family: 'Shift', sans-serif;
+}
+/*Android-apple-development section */
+.android-apple-development {
+	-webkit-column-count: 2; /* Chrome, Safari, Opera */
+    -moz-column-count: 2; /* Firefox */
+    column-count: 2;
+}
+
+.android-apple-development div {
+	display: inline-block;
+	background-color: white;
+	margin-left: 100px;
+	margin-bottom: 20px;
+}
+
+.android-apple-development h1 {
+	color: black;
+	font-size: 2em;
+	font-weight: bold;
+	font-family: 'Shift', sans-serif;
+}
+
+.android-apple-development p {
+	color: black;
+	font-size: 1em;
+	margin-bottom: 10px;
+	font-family: 'Shift', sans-serif;
+}
+
+.android-apple-development .thumbnail img {
+	height: 300px;
+	width: 500px;
+}
+/*additional-info section */
+.additional-info{
+	background-color: #F5F5F5;
+	width: 100%;
+	-webkit-column-count: 3; /* Chrome, Safari, Opera */
+    -moz-column-count: 3; /* Firefox */
+    column-count: 3;
+	margin: auto;
+	border-top: 1px solid black;
+}
+
+.additional-info .container {
+	display: inline-block;
+	margin: auto;
+	padding: 40px;
+	
+}
+
+.additional-info p {
+	width: 20em;
+	font-family: 'Shift', sans-serif;
+}
+
+.additional-info img {
+	height: 10em;
+	width: 20em;
+}
+
+/* footer section */
+.footer {
+	background-color: black;
+	width: 100%;
+	margin: auto;
+}
+
+.footer h2 {
+	color: white;
+	font-size: 20px;
+	font-family: 'Shift', sans-serif;
+	font-weight: bold;
+	padding: 10px 10px;
+	margin: auto;
+	text-align: center;
+}
+
+.footer p {
+	color: white;
+	font-size: 16px;
+	font-family: 'Shift', sans-serif;
+	padding: 10px 10px;
+	margin: auto;
+	text-align: center;
+}
+
+.footer a {
+	color: #00BFFF;
+}
